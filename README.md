@@ -5,7 +5,8 @@
 ### Description of the idea
 The parameters for the field are entered, its length and width, as well as the parameters of the boat, start of the rout and the location of the buoys. Everything will be stored in the corresponding arrays. Next comes the selection of the obstacle and the call of the corresponding functions. The function must return:
 - the possibility of passing the obstacle (true/falls)
-- the Route (if possible)
+- the Route (if possible)<br />
+
 Next comes the visualization of the route and the output of coordinates.
 ### To Do
 - Creating an environment for input data
