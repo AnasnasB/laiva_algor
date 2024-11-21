@@ -15,6 +15,7 @@ def add_obstacle(x,y,color):
 def show_obstacles():
     for i in obstacles:
         plt.scatter(i[0], i[1], color=i[2])
+    plt.grid(color='gray', linestyle='--', linewidth=0.5)
     plt.xlabel('X')
     plt.ylabel('Y')
     plt.show()
@@ -34,11 +35,13 @@ def print_commands():
     print("show                                              -- shows buoys")
     print("delete                                            -- delete buoy")
     print("exit                                              -- finishes the program")
+    print("✨List of algorithms✨")
+    print("obstacle_channel")
 
 print_commands()
 exit=True
 while exit==True:
-    command=input()
+    command=input("$")
     command_array=command.split(" ")
     match command_array[0]:
         case "obstacle":
@@ -50,5 +53,7 @@ while exit==True:
             exit=False
         case "delete":
             delete_obstacles()
+        case "obstacle_channel":
+            obstacle_channel.main(obstacles)
         case _:
             print("No such command found")
