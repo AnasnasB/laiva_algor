@@ -9,11 +9,12 @@ The parameters for the field are entered, its length and width, as well as the p
 
 Next comes the visualization of the route and the output of coordinates.
 ### To Do
-- Creating an environment for input data
-- Algorithm for Obstacle Channel
 - Algorithm for Collision avoidance
 - Algorithm for Visual Docking
+## In progress
+- Algorithm for Obstacle Channel
 - Algorithm for Speed Gate
-- Visualization
 ## Done
+- Creating an environment for input data
+- Visualization 
 ![doge](https://git.io/doge)
