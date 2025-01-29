@@ -55,5 +55,7 @@ while exit==True:
             delete_obstacles()
         case "obstacle_channel":
             obstacle_channel.main(obstacles)
+        case "visual_docking":
+            visual_docking.main(obstacles)
         case _:
             print("No such command found")
